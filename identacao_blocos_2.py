@@ -1,33 +1,22 @@
-saldo = 500  # saldo global do cliente
+saldo = 500
 
 def sacar(valor):
     global saldo
-
-    if valor <= 0:
-        print("Valor inválido para saque.")
-        return False
-
     if saldo >= valor:
         saldo -= valor
-        print(f"Saque de R${valor:.2f} realizado com sucesso!")
-        print("Retire o seu dinheiro no caixa.")
-        return True
+        print("Valor sacado!")
+        print("Retire o seu dinheiro na boca do caixa.")
     else:
-        print("Saldo insuficiente para realizar o saque.")
-        return False
+        print("Saldo insuficiente.")
+
+    print("Obrigado por ser nosso cliente!")
 
 def depositar(valor):
     global saldo
-
-    if valor <= 0:
-        print("Valor inválido para depósito.")
-        return False
-
     saldo += valor
-    print(f"Depósito de R${valor:.2f} realizado com sucesso!")
-    return True
+    print("Depósito realizado com sucesso!")
 
 
-# Exemplo de uso
 sacar(100)
 print("Saldo atual:", saldo)
+
