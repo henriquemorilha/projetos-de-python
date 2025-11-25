@@ -1,0 +1,2 @@
+vazia = ()
+print(len(vazia))
