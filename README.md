@@ -1,12 +1,12 @@
-# Projetos de Python 🐍
+# Python Projects 🐍
 
-Este repositório reúne meus estudos e práticas com Python, organizados por conceitos fundamentais da linguagem.
+This repository contains my Python studies and practice exercises, organized by core language concepts.
 
-O objetivo é consolidar conhecimento em lógica de programação, estruturas de dados e boas práticas, servindo como base para projetos mais avançados em backend, automação e cloud.
+The goal is to build a solid foundation in programming logic, data structures, and best practices, serving as a base for more advanced projects in backend development, automation, and cloud environments.
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📂 Repository Structure
 
 ```bash
 estudos/
@@ -22,16 +22,57 @@ estudos/
 
 
 
-📌 Observações
 
-Este repositório é focado em aprendizado e evolução contínua.
-Projetos mais completos e aplicados serão adicionados em uma nova estrutura separada.
+Each folder contains practical examples and exercises focused on a specific concept.
 
-## 👨‍💻 Autor
+---
+
+## 🧠 Topics Covered
+
+- Conditional structures (`if`, `else`, ternary)
+- Loops (`for`, `while`)
+- List manipulation
+- Dictionaries (key-value structures)
+- Sets
+- Tuples
+- Strings
+- Operators (arithmetic, logical, etc.)
+- Python fundamentals
+
+---
+
+## 🎯 Purpose
+
+To develop a strong foundation in Python for applications such as:
+
+- 🔧 Process automation  
+- 🌐 API development  
+- ☁️ Cloud and DevOps-related projects  
+
+---
+
+## 🚀 Next Steps
+
+- [ ] Build real-world Python projects  
+- [ ] Develop APIs using Flask/FastAPI  
+- [ ] Implement automation scripts with external integrations  
+- [ ] Add automated tests  
+- [ ] Use Docker in projects  
+
+---
+
+## 📌 Notes
+
+This repository is focused on learning and continuous improvement.  
+More advanced and production-level projects will be added in a separate structured directory.
+
+---
+
+## 👨‍💻 Author
 
 **Henrique Morilha**  
 IT Specialist | Mainframe Operations & Infrastructure  
 SRE & DevOps Practices | Automation & Observability  
 
-📍 Brasil  
+📍 Brazil  
 🔗 LinkedIn: https://www.linkedin.com/in/hmorilha/
